@@ -1,0 +1,10 @@
+@font-face {
+	font-family: Myfont;
+	src: url('./font/font.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.box{
+	font-family:Myfont;background-color: red; color: #000;border: 1px solid #333;background: url('./img_1.jpg');
+}
