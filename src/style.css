@@ -6,5 +6,5 @@
 }
 
 .box{
-	font-family:Myfont;background-color: red; color: #000;border: 1px solid #333;background: url('./img_1.jpg');
+	font-family:Myfont;background-color: red; color: #000;height:300px;border: 1px solid #333;background: url('./img_1.jpg');
 }
