@@ -1,19 +1,20 @@
-import _ from 'lodash';
+import _ from 'lodash'
 import printMe from './project.js'
-import './style.css';
+import './style.css'
 
 function component(){
-	let element = document.createElement("div")
+
+	var element = document.createElement("div")
 	element.innerHTML = _.join(['Hello ','webpack'], ' ')
 	
 	element.classList.add('box')
 
 	// 新增点击按钮
-	let btn = document.createElement('button');
+	var btn = document.createElement('button')
 	btn.innerHTML = '点击我会打印信息';
-	btn.onclick = printMe;
+	btn.onclick = printMe
 
-	element.appendChild(btn);
+	element.appendChild(btn)
 
 	return element 
 }
