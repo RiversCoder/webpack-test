@@ -1,0 +1,19 @@
+{
+  "name": "case01_create_library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.35.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

@@ -10,6 +10,9 @@ module.exports = merge(common, {
   plugins: [
   	new webpack.DefinePlugin({
 		 'process.env.NODE_ENV': JSON.stringify('dev')
-	})
+	}),
+	new webpack.ProvidePlugin({
+      lod: 'lodash'
+    })
   ]
 });
